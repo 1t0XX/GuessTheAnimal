@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Class clazz = String.class.getClass();
+- text: Class clazz = String.class.getSuperclass();
+- text: Class classForName = Class.forName("String");
+- text: Class clazz = String.class;
+- text: Class clazz = String.getClass();
+- text: Class clazz = "".getClass();
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2930#comment
+status: Solved
+record: -1

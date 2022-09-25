@@ -1,0 +1,8 @@
+# Project exclude paths
+/.gradle/
+/Guess the Animal/task/build/
+/Guess the Animal/task/out/
+/Guess the Animal/task/out/production/classes/
+/Topics/Binary heap/What-heap/out/
+/Topics/Binary heap/What-heap/out/production/classes/
+/Topics/Stream pipelines/Theory/build/

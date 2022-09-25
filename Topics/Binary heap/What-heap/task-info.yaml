@@ -1,0 +1,21 @@
+type: dataset
+custom_name: What-heap?
+files:
+- name: src/Task.java
+  visible: true
+  text: "// write your code here \n\npublic class Task {\n  public static void main(String[]\
+    \ args) {\n    // put your code here\n  }\n}\n"
+  learner_created: false
+- name: data/sample/input.txt
+  visible: true
+  text: |
+    48 44 43 9 40 10 48 17 23 40 0 20 5 20 35 26 9 43 17 45
+    6 6 11 12 10 12 17 17 16 17 27 28 24 49 24 45 42 27 20 37
+    47 45 45 34 41 36 43 20 32 20 7 3 31 20 27 8 9 18 26 6
+  learner_created: false
+- name: data/dataset/input.txt
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/17257#comment
+status: Unchecked
+record: -1
